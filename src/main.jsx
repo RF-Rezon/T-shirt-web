@@ -4,6 +4,8 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import About from './Components/About/About';
+import Contact from './Components/Contact/Contact';
 import Home from './Components/Home/Home';
 import Main from './Components/Layout/Main';
 import OrderReview from './Components/OrderReview/OrderReview';
@@ -22,6 +24,14 @@ const router = createBrowserRouter([
       {
         path:'review',
         element: <OrderReview></OrderReview>
+      },
+      {
+        path:'about',
+        element: <About/>
+      },
+      {
+        path:'contact',
+        element: <Contact/>
       },
     ]
   },

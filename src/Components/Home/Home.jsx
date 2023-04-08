@@ -25,7 +25,7 @@ const Home = () => {
   };
   return (
     <div>
-      <div className="flex flex-col lg:flex-row space-x-5 justify-around">
+      <div className="flex flex-col lg:flex-row space-x-5 justify-around mb-20">
         <div
           id="lplp"
           className="grid grid-cols-1 md:grid-cols-3 gap-7 p-5
